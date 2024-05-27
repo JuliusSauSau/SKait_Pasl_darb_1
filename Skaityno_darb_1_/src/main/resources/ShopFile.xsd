@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="shop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="products" type="productsType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="productsType">
+    <xs:sequence>
+      <xs:element name="product" type="productType" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="productType">
+    <xs:sequence>
+      <xs:element name="id" type="xs:string"/>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="price" type="xs:string"/>
+      <xs:element name="description" type="xs:string"/>
+      <xs:element name="category" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

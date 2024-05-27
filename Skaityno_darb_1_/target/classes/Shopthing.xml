@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE shop [
+        <!ELEMENT shop (products)>
+        <!ELEMENT products (product+)>
+        <!ELEMENT product (id, name, price, description, category)>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT category (#PCDATA)>
+]>
+<shop>
+    <products>
+        <product>
+            <id>1</id>
+            <name>Bookshelf</name>
+            <price>$100</price>
+            <description>A sturdy wooden bookshelf with three shelves.</description>
+            <category>Furniture</category>
+        </product>
+        <product>
+            <id>2</id>
+            <name>Laptop</name>
+            <price>$800</price>
+            <description>A sleek and powerful laptop for work and entertainment.</description>
+            <category>Electronics</category>
+        </product>
+        <product>
+            <id>3</id>
+            <name>Bluetooth Speaker</name>
+            <price>$50</price>
+            <description>A portable speaker with wireless connectivity for music on-the-go.</description>
+            <category>Electronics</category>
+        </product>
+        <product>
+            <id>4</id>
+            <name>Coffee Maker</name>
+            <price>$60</price>
+            <description>An automatic coffee maker for brewing delicious coffee at home.</description>
+            <category>Appliances</category>
+        </product>
+        <product>
+            <id>5</id>
+            <name>Running Shoes</name>
+            <price>$80</price>
+            <description>High-quality running shoes with excellent cushioning and support.</description>
+            <category>Apparel</category>
+        </product>
+        <product>
+            <id>6</id>
+            <name>Hammer</name>
+            <price>$20</price>
+            <description>A versatile tool for driving nails and breaking objects.</description>
+            <category>Tools</category>
+        </product>
+        <product>
+            <id>7</id>
+            <name>Nails</name>
+            <price>$5</price>
+            <description>Assorted nails for various woodworking and construction projects.</description>
+            <category>Tools</category>
+        </product>
+        <product>
+            <id>8</id>
+            <name>Saw</name>
+            <price>$30</price>
+            <description>A durable hand saw for cutting through wood and other materials.</description>
+            <category>Tools</category>
+        </product>
+        <product>
+            <id>9</id>
+            <name>Screwdriver Set</name>
+            <price>$15</price>
+            <description>A set of screwdrivers with different tips for various tasks.</description>
+            <category>Tools</category>
+        </product>
+        <product>
+            <id>10</id>
+            <name>Paint Brushes</name>
+            <price>$10</price>
+            <description>A set of high-quality paint brushes for art and DIY projects.</description>
+            <category>Tools</category>
+        </product>
+        <product>
+            <id>11</id>
+            <name>Flashlight</name>
+            <price>$8</price>
+            <description>A compact and bright flashlight for emergencies and outdoor activities.</description>
+            <category>Tools</category>
+        </product>
+        <product>
+            <id>12</id>
+            <name>Toolbox</name>
+            <price>$25</price>
+            <description>A sturdy toolbox for organizing and carrying tools to job sites.</description>
+            <category>Tools</category>
+        </product>
+        <product>
+            <id>13</id>
+            <name>Garden Hose</name>
+            <price>$20</price>
+            <description>A durable garden hose for watering plants and washing outdoor surfaces.</description>
+            <category>Tools</category>
+        </product>
+        <product>
+            <id>14</id>
+            <name>Drill</name>
+            <price>$50</price>
+            <description>A versatile power drill for drilling holes and driving screws.</description>
+            <category>Tools</category>
+        </product>
+        <product>
+            <id>15</id>
+            <name>Tape Measure</name>
+            <price>$7</price>
+            <description>A reliable tape measure for taking accurate measurements in construction and DIY projects.</description>
+            <category>Tools</category>
+        </product>
+        <product>
+            <id>16</id>
+            <name>Paint Roller Kit</name>
+            <price>$12</price>
+            <description>A kit containing paint rollers and trays for painting walls and ceilings.</description>
+            <category>Tools</category>
+        </product>
+    </products>
+</shop>
